@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد - موقع شخصي</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            border: 4px solid #fff;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 25px 20px;
+            margin: 20px;
+            border-radius: 15px;
+            max-width: 600px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #fff;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px 15px;
+            padding: 10px 20px;
+            color: #2575fc;
+            background-color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            background-color: #2575fc;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبا! أنا محمد</h1>
+        <img src="your-photo.jpg" alt="صورة محمد">
+    </header>
+
+    <section>
+        <h2>نبذة عني</h2>
+        <p>أنا مطور ويب هاوي، أحب تعلم التقنيات الجديدة وبناء المشاريع الشخصية. أعمل على مشاريع صغيرة وأستمتع بابتكار واجهات جذابة وسهلة الاستخدام.</p>
+    </section>
+
+    <section>
+        <h2>تواصل معي</h2>
+        <a href="https://github.com/username" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a>
+        <a href="mailto:your-email@example.com">Email</a>
+    </section>
+</body>
+</html>
